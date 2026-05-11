@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Mercedes Rguez - Fullstack Developer</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-sidebar: #f8f9fa;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+        }
+
+        .cv-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: var(--white);
+            display: grid;
+            grid-template-columns: 35% 65%;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        /* Lateral Izquierdo / Sidebar */
+        aside {
+            background-color: var(--bg-sidebar);
+            padding: 40px 30px;
+            border-right: 1px solid #ddd;
+        }
+
+        .profile-header {
+            margin-bottom: 40px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+
+        .contact-info p { margin: 5px 0; }
+
+        h3 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+            margin-top: 30px;
+            text-transform: uppercase;
+            font-size: 1.1em;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .tag-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 10px;
+        }
+
+        .tag {
+            background: #d1d8e0;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+        }
+
+        /* Columna Principal */
+        main {
+            padding: 40px;
+        }
+
+        .main-header {
+            margin-bottom: 30px;
+        }
+
+        .role-title {
+            font-size: 22px;
+            color: var(--accent-color);
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .summary {
+            font-style: italic;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+
+        section { margin-bottom: 35px; }
+
+        .experience-item {
+            margin-bottom: 25px;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .date-location {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        .job-title {
+            color: var(--accent-color);
+            font-weight: 600;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Ajustes Responsive */
+        @media (max-width: 768px) {
+            .cv-container {
+                grid-template-columns: 1fr;
+            }
+            aside { border-right: none; border-bottom: 1px solid #ddd; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+    <aside>
+        <div class="profile-header">
+            <div class="name">Mercedes Rguez </div>
+            <div class="contact-info">
+                <p>📧 mercedesdhana@gmail.com</p>
+                <p>📞 +34 630515336 </p>
+                <p>🔗 <a href="https://www.linkedin.com/in/mercedes-ogoise/">LinkedIn</a>  </p>
+            </div>
+        </div>
+
+        <h3>Stack Tecnológico</h3>
+        <p><strong>Lenguajes:</strong> Python, JavaScript, PHP, SQL, HTML5, CSS3.</p>
+        <p><strong>Herramientas:</strong> Docker, Git/GitHub, MySQL, PostgreSQL, VS Code, Figma.</p>
+
+        <h3>Especialidades</h3>
+        <ul>
+            <li>Auditoría UX/UI</li>
+            <li>Arquitectura de la información</li>
+            <li>Metodologías Ágiles (Scrum)</li>
+        </ul>
+
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Gestión de clientes</li>
+            <li>Comunicación asertiva (Gestalt y PNL)</li>
+            <li>Iniciativa y Autogestión</li>
+        </ul>
+
+        <h3>Educación </h3>
+        <p><strong>DAW (Desarrollo de Aplicaciones Web)</strong><br>Ilerna </p>
+        <p><strong>Grado Superior Diseño Gráfico</strong><br>Fernando Estévez</p>
+        <p><strong>Docencia para la FP</strong> (2024)</p>
+    </aside>
+
+    <main>
+        <div class="main-header">
+            <h1 class="role-title">FULLSTACK DEVELOPER | ESPECIALISTA EN UX/UI & ARQUITECTURA BACKEND</h1>
+            <p class="summary">Profesional con más de 15 años de trayectoria en el sector tecnológico. Perfil híbrido que combina diseño de producto con especialización técnica en desarrollo web. Preferencias por el trabajo remoto</p>
+        </div>
+
+        <section>
+            <h3>Aptitudes Destacadas</h3>
+            <p><strong>Inteligencia Emocional:</strong> Formación avanzada en Gestalt y PNL, facilitando la mediación y el entendimiento en entornos de alta presión.</p>
+            <p><strong>Creatividad Funcional:</strong> Aplicación de UX/UI para optimizar la arquitectura de soluciones y usabilidad del software.</p>
+        </section>
+
+        <section>
+            <h3>Experiencia Profesional </h3>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Acuale</span>
+                    <span class="date-location">Feb-May 2025 </span>
+                </div>
+                <span class="job-title">Analítica Web / Digital Analyst</span>
+                <p>Auditoría de 5 proyectos web complejos bajo estándares de rendimiento y diseño UX/UI. Implementación de métricas de negocio.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Permacultura Cantabria</span>
+                    <span class="date-location">2023 - 2025 </span>
+                </div>
+                <span class="job-title">Desarrolladora Web & UX/UI</span>
+                <p>Diseño de interfaces optimizadas para conversión. Gestión de infraestructura en WordPress y automatización de contenidos.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Freelance</span>
+                    <span class="date-location">2008 - 2018 </span>
+                </div>
+                <span class="job-title">Fullstack Web Developer & Project Manager</span>
+                <p>Liderazgo técnico para clientes como Repsol. Arquitectura y despliegue de plataformas e-learning (Moodle, Storyline).</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>ComuNet</span>
+                    <span class="date-location">2001 - 2008 </span>
+                </div>
+                <span class="job-title">Responsable del Departamento Desarrollo Web</span>
+                <p>Dirección creativa y desarrollo web para cursos online utilizando JS, HTML, CSS y Actionscript.</p>
+            </div>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
