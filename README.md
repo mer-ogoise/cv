@@ -1,2 +1,3 @@
 # cv
-Mi curriculum Developer UX IU Trabajo en Remoto. DAW, Backend FullStack, desarrollo de proyectos, Arquitectura, Analiticas, Python
+Mi curriculum Developer UX IU Trabajo en Remoto. DAW, Backend FullStack, desarrollo de proyectos, Arquitectura, Analiticas, Python. 
+Perfil polivalente con sólida formación como Técnico Superior en Desarrollo de Aplicaciones Web (DAW) y Técnico Superior en Diseño Gráfico, combinando una visión creativa con un dominio técnico integral. Cuento con 10 años de experiencia especializada en desarrollo Frontend, a los que sumó 8 años de trayectoria simultánea como Freelance en desarrollo web, gestionando proyectos de principio a fin de manera autónoma. Esta dualidad me permite conectar el diseño UI/UX con una arquitectura de código eficiente, aportando soluciones completas, estéticas y de alto rendimiento que cubren todo el espectro Full Stack.
